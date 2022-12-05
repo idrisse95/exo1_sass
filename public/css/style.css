@@ -13,7 +13,7 @@ header #top {
   justify-content: space-around;
   background-color: grey;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 #top .titre {
@@ -23,6 +23,10 @@ header #top {
 #top .home {
   font-weight: 100;
   display: flex;
+}
+
+#top .home div:hover {
+  background-color: #00b1f2;
 }
 
 #top .home div {
@@ -45,29 +49,98 @@ header #top {
   color: #00b1f2;
 }
 
-.card {
+.cardI {
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
 }
 
-.card ul {
+.cardI ul {
   list-style: none;
 }
 
-.card ul li {
+.cardI ul li {
   margin-top: 10px;
 }
 
-.card div {
-  width: 300px;
+.cardI div {
+  width: 250px;
   text-align: center;
   background-color: #cfcfcf;
   margin-left: 40px;
-  padding: 1px 5px;
+  padding-right: 3%;
 }
 
-.card .bl {
+.cardI .bl {
   color: #00b1f2;
 }
+
+.cardI i {
+  background-color: #eaeaea;
+  border-radius: 50%;
+  padding: 10px;
+  color: #00b1f2;
+}
+
+.avantD {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.avantD span:first-child {
+  font-size: 20px;
+  font-weight: 100px;
+}
+
+.txtD {
+  width: 400px;
+}
+
+.txtD span:last-child {
+  padding: 10px;
+  color: white;
+  background-color: #00b1f2;
+}
+
+.avantD .img {
+  color: white;
+  display: flex;
+}
+
+.avantD .img .e {
+  background-color: rgb(61, 61, 85);
+  width: 253px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+#footerB {
+  margin-top: 100px;
+  background-color: #0686b4;
+  color: rgb(230, 228, 228);
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footerB ul {
+  list-style: none;
+}
+
+#footerB ul li:first-child {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #3f3f3f;
+  text-align: center;
+  color: grey;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
